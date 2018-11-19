@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders successfully 1`] = `
+<DocumentFragment>
+  <figure>
+    <img
+      class="roundedPhoto"
+      sizes="(min-width: 30rem) 400px, 200px"
+      src="https://res.cloudinary.com/demo/image/upload/c_scale,w_200/kitten"
+      srcset="https://res.cloudinary.com/demo/image/upload/c_scale,w_200/kitten 200w, https://res.cloudinary.com/demo/image/upload/c_scale,w_400/kitten 400w, https://res.cloudinary.com/demo/image/upload/c_scale,w_800/kitten 800w"
+    />
+    <figcaption
+      class="caption"
+    >
+      A kitten
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;

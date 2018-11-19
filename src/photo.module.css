@@ -1,0 +1,17 @@
+.photo {
+  width: 200px;
+}
+.roundedPhoto {
+  composes: photo;
+  border-radius: var(--border-radius, 1rem);
+}
+
+@media (--photo-breakpoint) {
+  .photo {
+    width: 400px;
+  }
+}
+
+.caption {
+  composes: visuallyHidden from './utils.module.css';
+}
