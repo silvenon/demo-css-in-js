@@ -1,7 +1,6 @@
 const CleanPlugin = require('clean-webpack-plugin')
 const HtmlPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const CrittersPlugin = require('critters-webpack-plugin')
 
 const isProd = process.env.NODE_ENV === 'production'
 
@@ -25,7 +24,6 @@ module.exports = {
         new CleanPlugin(['dist']),
         htmlPlugin,
         new MiniCssExtractPlugin(),
-        new CrittersPlugin(),
       ]
     : [htmlPlugin],
   module: {
