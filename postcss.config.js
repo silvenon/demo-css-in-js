@@ -1,9 +1,12 @@
 module.exports = {
   plugins: {
     'postcss-preset-env': {
-      stage: 0,
       importFrom: 'src/global.css',
-      preserve: true,
+      features: {
+        'custom-properties': true,
+        'custom-media-queries': true,
+        'custom-selectors': true,
+      },
     },
   },
 }
