@@ -66,20 +66,6 @@ module.exports = {
           },
         ],
       },
-      isProd
-        ? {
-            test: /\.html$/,
-            include: `${__dirname}/src`,
-            use: [
-              {
-                loader: 'prerender-loader',
-                options: {
-                  string: true,
-                },
-              },
-            ],
-          }
-        : null,
-    ].filter(Boolean),
+    ],
   },
 }
