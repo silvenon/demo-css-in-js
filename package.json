@@ -3,6 +3,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "test": "jest",
+    "format": "eslint . --fix",
     "build": "NODE_ENV=production webpack"
   },
   "dependencies": {

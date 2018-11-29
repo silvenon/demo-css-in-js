@@ -20,11 +20,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   plugins: isProd
-    ? [
-        new CleanPlugin(['dist']),
-        htmlPlugin,
-        new MiniCssExtractPlugin(),
-      ]
+    ? [new CleanPlugin(['dist']), htmlPlugin, new MiniCssExtractPlugin()]
     : [htmlPlugin],
   module: {
     rules: [
