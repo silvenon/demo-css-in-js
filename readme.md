@@ -1,8 +1,12 @@
 # Bridging the Gap Between CSS and JavaScript
 
-This repo demonstrates techniques from my series [Bridging the Gap Between CSS
-and JavaScript][series]. To keep the series shorter, I left out some
-non-essential, but useful tips:
+This repo demonstrates techniques from my two-part series Bridging the Gap Between CSS
+and JavaScript:
+
+  1. [Part One: CSS-in-JS][part1]
+  2. [Part Two: CSS Modules, PostCSS and the Future of CSS][part2]
+
+To keep the series shorter, I left out some non-essential, but useful tips:
 
 ## Bonus tips
 
@@ -32,7 +36,8 @@ A test example is included in this project.
 
 An initial downside is that, unlike with CSS-in-JS, typos won’t cause an error. However, if you’re using a static type-checker like Flow, you can automatically generate types for CSS Modules using tools like [css-modules-flow-types][].
 
-[series]: #
+[part1]: https://css-tricks.com/bridging-the-gap-between-css-and-javascript-css-in-js/
+[part2]: https://css-tricks.com/bridging-the-gap-between-css-and-javascript-css-modules-postcss-and-the-future-of-css/
 [browserslist]: https://github.com/browserslist/browserslist
 [identity-obj-proxy]: https://github.com/keyanzhang/identity-obj-proxy
 [css-modules-flow-types]: https://github.com/skovhus/css-modules-flow-types
